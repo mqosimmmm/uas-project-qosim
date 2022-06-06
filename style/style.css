@@ -1,0 +1,45 @@
+.navbar{
+    display:flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Language img{
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+    .gambar .panjang img{
+        width: 100px !important;
+        height: 210px !important;
+    }
+
+    .gambar .petak img{
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-width:600px){
+    .gambar .panjang img{
+        width: 75px !important;
+        height: 160px !important;
+    }
+
+    .gambar .petak img{
+        width: 75px !important;
+    }
+
+    .course .card h5{
+        font-size: 12px;
+    }
+
+
+}

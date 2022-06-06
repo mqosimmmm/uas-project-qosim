@@ -7,21 +7,182 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Home</title>
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+  
+    <!--- Header --->
+    
+    <div class="bg-primary text-white row justify-content-between" style="background-image:url(images/langit2.png) ; background-position: center;
+    background-size: cover; background-repeat: no-repeat;">
+      <div class="container">
+        <div class="navbar">
+          <img src="images/logo-removebg.png " alt="logo" style="width:150px ;">
+          <div class="navmenu">
+            <ul>
+              <li><a href="about-us.html"> About </a></li>
+              <li><a href="contact-us.html"> Contact </a></li>
+              <a href="login.html"><button type="button" class="btn btn-primary" style="background-color: #250282; border-radius: 5px; font-family:calibri; border: none;">
+                Log in / Sign in
+              </button></a>        
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<!--Select Language-->      
+      <h3 class="banner" style="font-size: 45pt ; text-align: center; margin-top: 150px; margin-bottom: 150pt;
+      font-family: suranna;">Learn a Language</h3>
+    </div>
+       
+    
+    <div class="bg-light Language text-dark" >
+      <div class="row justify-content-center" style="background-color:rgba(216, 203, 255, 30%);">
+      <h3 class="negara" style="font-family:peddana ; color: #250282; text-align: center; margin-bottom: 30px; margin-top: 30px;"> Specific Language Lessons </h3>
+      <div class="container">
+        <div class="row gambar justify-content-center">
+          <div class="col-2 panjang">
+            <img  src="images/Group 1.png" onclick="window.location='english.html'" alt="inggris" style=" height: 410px; width: 200px;  align-items: center;">
+          </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+          <div class="col-2 petak">
+                <img  src="images/Group 2.png" onclick="window.location='chinese.html'" alt="chinese" style="width: 200px; margin-bottom: 10px;">
+                <img  src="images/Group 3.png" onclick="window.location='spanyol.html'" alt="spanish" style="width: 200px;">
+          </div>
+
+          <div class="col-2 petak">
+                <img  src="images/Group 4.png" onclick="window.location='arabic.html'" alt="arabic" style="width: 200px; margin-bottom: 10px;">
+                <img  src="images/Group 5.png" onclick="window.location='french.html'" alt="french" style="width: 200px;">
+          </div>
+          <p><br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--course-->
+  <div class="container course text-center py-3">
+      <h3 class="negara" style="font-family:peddana ; color: #250282;
+       text-align: center; margin-bottom: 30px; margin-top: 30px;"> Course </h3>
+       <div class="row">
+        <div class="col-4">
+          <div class="card h-100">
+            <img src="images/course 2.jpg" class="card-img-top" alt="course1">
+            <div class="card-body">
+              <a href="course-1.html" style="text-decoration:none; color: black; font-weight: bold;">
+                <h5 class="card-title">KURSUS BAHASA INGGRIS KHUSUS PEMULA</h5></a>
+              <p class="card-text text-muted">Kampung Inggris</p>
+              <p class="card-text" style="font-weight:bolder;">Rp 185.000</p>
+              <img src="images/bintang 2.jpg" alt="bintang" style="width: 100px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card h-100">
+            <img src="images/course1.jpg" class="card-img-top" alt="course1">
+            <div class="card-body">
+              <a href="course-2.html" style="text-decoration:none; color: black; font-weight: bold;">
+                <h5 class="card-title">KURSUS BAHASA CHINA DIBIMBING HINGGA PANDAI</h5></a>
+              <p class="card-text text-muted">BelajarYuk</p>
+              <p class="card-text" style="font-weight:bolder;">Rp 235.000</p>
+              <img src="images/bitang 1.jpg" alt="bintang" style="width: 100px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card h-100">
+            <img src="images/course4.jpg" class="card-img-top" alt="course1">
+            <div class="card-body">
+              <a href="course-3.html" style="text-decoration:none; color: black; font-weight: bold;">
+                <h5 class="card-title">KURSUS ENGLISH SPEAKING DENGAN TUTOR PROFESIONAL</h5></a>
+              <p class="card-text text-muted">EnglishLessons</p>
+              <p class="card-text" style="font-weight:bolder;">Rp 290.000</p>
+              <img src="images/bitang 1.jpg" alt="bintang" style="width: 100px;">
+            </div>
+          </div>
+        </div>
+       </div>
+  </div>
+
+<!--learn-->
+
+<div class="bg-light text-dark">
+  <div class="row" style="background-color: rgba(216, 203, 255, 30%);">
+      
+      <h3 class="negara" style="font-family:peddana ; color: #250282;
+       text-align: center; margin-bottom: 30px; margin-top: 30px;"> What Do You Learn </h3>
+  
+      <div class="row text-center d-flex align-items-end">
+        <div class="col-3">
+          <img src="images/Screenshot_205-removebg-preview.png" alt="speak">
+          <p style="color:#250282; font-family: inter;">SPEAK</p>
+        </div>
+
+        <div class="col-3">
+          <img src="images/Screenshot_206-removebg-preview.png" alt="read">
+          <p style="color:#250282; font-family: inter;">READ</p>
+        </div>
+        
+        <div class="col-3">
+          <img src="images/Screenshot_207-removebg-preview.png" alt="culture">
+          <p style="color:#250282; font-family: inter;">CULTURE</p>
+        </div>
+        
+        <div class="col-3">
+          <img src="images/Screenshot_208-removebg-preview.png" alt="write">
+          <p style="color:#250282; font-family: inter;">WRITE</p>
+        </div>
+        <p><br><br></p>
+     </div>
+  </div>
+</div>
+
+<!---Footer--->
+ <footer class=" text-light pt-3" style="background-color: #250282;">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-lg-4">
+          <p style="text-align: center;"><img src="images/logo.jpg" width="130" class="img-fluid" > <br>
+          <p style="text-align: center;"><a href="about-us.html" style="font-family: inter; font-size: small; text-decoration: none; color: white; margin-left: -30px;"> About us </a>
+          <br>
+          <a href="contact-us.html" style="font-family: inter; font-size: small; text-decoration: none; color: white; margin-left: -19px;"> Contact us</a>
+          <br>
+          <a href="privacy-policy.html" style="font-family: inter; font-size: small; text-decoration: none; color: white;"> Privacy Policy </a></p>
+        </p></div>
+      <div class="col-sm-4 col-lg-4">
+        <p style="font-weight: bold; text-align: center;">Learn Language </p>
+          <p style="text-align: center;"><a href="english.html" style="font-size: small; text-decoration :underline; color: white;"> English </a>
+          <br>
+          <a href="chinese.html" style="font-size: small; text-decoration: underline; color: white;"> Chinese </a>
+          <br>
+          <a href="arabic.html" style="font-size: small; text-decoration: underline; color: white;"> Arabic </a>
+          <br>
+          <a href="spanyol.html" style="font-size: small; text-decoration: underline; color: white;"> Spanish </a>
+          <br>
+          <a href="french.html" style="font-size: small; text-decoration: underline; color: white;"> French </a>
+          <br>
+      </p>
+      </div>
+      <div class="col-sm-4 col-md-2 col-lg-4">
+        <p style="font-weight: bold; text-align: center;"> contact us by email </p>
+        <p style="margin-top: -20px; text-align: center;">urtilanguage01@gmail.com</p>
+        <br>
+        <p style="font-weight: bold; text-align: center;">connect with us</p>
+        <p style="text-align: center;"><a href=""><img src="images/ig.png" width="20" style="margin-top: -40px;"></a>
+        <a href=""><img src="images/whatsapp.png" width="20" style="margin-top:-40px;;"></a>
+        <a href=""><img src="images/twitter.png" width="20" style="margin-top: -40px;"></a></p>
+        </div>
+      </div>
+    </div>
+  </div>   
+</footer>  
+  
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+  
   </body>
 </html>
